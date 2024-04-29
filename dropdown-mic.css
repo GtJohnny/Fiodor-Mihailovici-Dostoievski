@@ -1,0 +1,114 @@
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:0.5%;
+}
+
+
+.nav-btn>a:link{
+    color:black;
+    text-decoration: none;
+}
+
+.nav-btn>a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+.nav-btn>a:active{
+    color:black;
+    text-decoration: none;
+}
+
+
+nav{
+    /* border:5px dotted yellow; */
+    position:sticky;
+    top:0;
+    width: 99%;
+    padding: 0.5%;
+    background-color: rgb(0,0,0,0);
+    height: 2.9em;
+    left: auto;
+    right:auto;
+    margin: 0;
+
+}
+
+.nav-header>.nav-btn:hover~.drop-list>.nav-btn{
+    opacity: 1;
+}
+.nav-header>.nav-btn:hover~.drop-list{
+    visibility: visible;
+}
+.drop-list>li{
+    opacity: 0;
+}
+.drop-list>li:hover{
+    opacity: 1;
+}
+.drop-list:hover>li{
+    opacity: 1;
+}
+.drop-list:hover{
+    visibility: visible;
+}
+.drop-list{
+    visibility: hidden;
+}
+
+
+.drop-list>li:nth-of-type(1){
+    transition-property: initial;
+    transition-delay: 0.1s;
+}
+.drop-list>li:nth-of-type(2){
+    transition-delay: 0.2s;
+}
+.drop-list>li:nth-of-type(3){
+    transition-delay: 0.3s;
+}
+.drop-list>li:nth-of-type(4){
+    transition-delay: 0.4s;
+}
+.drop-list>li:nth-of-type(5){
+    transition-delay: 0.5s;
+}
+
+
+
+
+.drop-list{
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    top:0.2em;
+    gap:0.2em;
+}
+.nav-btn{
+    border-radius: 15px;
+    transition-duration: 1s;
+    text-align: center;
+    line-height: 2em;
+    border: 1px solid grey;
+    height: 2em;
+    font-size: 1.2rem;
+    background-color:rgb(74,74,74) ;
+    box-shadow:4px 5px 10px darkgrey;
+    z-index: 0;
+    font-size: 3vw;
+    /* margin-bottom: 3px; */
+}
+
+.nav-btn:hover{
+    background-color: lightgray;
+}
+
+.nav-header{
+    width:25%;
+    max-height: 2em;
+}

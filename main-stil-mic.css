@@ -1,0 +1,72 @@
+
+
+body{
+    margin: 0;
+    /* background-image:url("poze/background1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* size: 100%; */
+
+}
+
+#titlu{
+    padding: 50px 50px;
+    background-image: url('https://cdn.pixabay.com/photo/2015/09/13/13/36/old-page-938185_1280.jpg');
+    background-size:100%;
+    border-radius: 70px;
+    background-repeat: no-repeat;
+    font-size: 60px;
+    font-family: "Ruthie", cursive;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    z-index: 10;
+    width:70%;
+    margin: 1.5em auto 1em auto;
+
+}
+
+
+#intro{
+    display: block;
+    position: relative;
+    margin:2em auto auto auto;
+    width: 100%;
+
+}
+
+#intro>img{
+    display: block;
+    width: 90%;
+    height: 100%;
+    opacity:0.7;
+    filter:brightness(250%);
+    margin:auto auto auto auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px 40px black;
+
+}
+
+
+#descriere{
+    color:black;
+    display: inline;
+    font-size: 3vw;
+    position:absolute;
+    top:15%;
+    left:10%;
+    right:10%;
+    text-shadow: 5px 10px 5px lightgray;
+}
+
+#descriere>p:nth-of-type(3){
+    position:relative;
+    width:75%;
+}
+#descriere{
+    overflow-y: scroll;
+    white-space: wrap;
+    width: 80%;
+    height: 80%;
+}

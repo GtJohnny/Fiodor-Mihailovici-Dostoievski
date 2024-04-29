@@ -1,0 +1,117 @@
+
+#continut>section>p{
+    font-size: 1.6+2em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+body{
+    background-color: lightgrey;
+}
+
+
+h1{
+    font-family: "Luxurious Script", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vw;
+    text-align: center;
+    background-color: rgb(94, 97, 97);
+    border-radius: 20px;
+}
+
+
+
+#continut>section>h2{
+    font-family: "Luxurious Script",cursive;
+    font-size: medium;
+    display: inline;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    
+}
+
+#copilarie>h2{
+    margin:  2% auto auto 5%;
+}
+
+#cotidian>h2{
+    margin:  2% auto 2% 40%;
+
+}
+
+#mostenire>h2{
+    margin:  2% auto 2% 60%;
+}
+
+
+
+#continut img{
+
+    box-shadow:  10px 10px 40px 20px grey;
+
+}
+
+#copilarie>figure>#parinti>img{
+    height:15em;
+    border-radius: 10%;
+}
+#copilarie>figure{
+    float:right
+}
+
+
+
+
+
+
+#copilarie>figure>figcaption::after{
+    content:"\a(de la stanga la dreapta)Maria Dostoievskaia si Mihail Dostoievski";
+    font-size: small;
+    white-space: pre;
+}
+
+#cotidian>figure>#birou>img{
+    height: 300px;
+}
+
+#cotidian>figure>figcaption::after{
+    content:"\apoza din muzeul din Sankt Petersburg";
+    font-size: small;
+    white-space: pre;
+}
+
+#cotidian>figure{
+    border: 1px solid black;
+    border-radius: 10px;
+    display:block;
+    float:left;
+    margin:0 2% auto 2%;
+}
+#cotidian>figure>#birou>img{
+    border-radius: 10px;
+}
+#cotidian>figure>figcaption{
+    text-align: center;
+}
+
+#mostenire figure{
+    border: 1px solid black;
+    border-radius: 10px;
+    display:block;
+    float:right;
+    margin:0 2% auto 2%;
+}
+#mostenire>figure>#funeralii>img{
+    border-radius: 10px;
+}
+
+#mostenire>figure>figcaption{
+    text-align: center;
+}
+

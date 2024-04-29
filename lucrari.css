@@ -1,0 +1,35 @@
+.carte{
+    display: block;
+    margin:40% 20 10% 20px;
+}
+
+.carte>img{
+    margin-left: 3%;
+    height: 250px;
+    float:right;
+    box-shadow: 5px 5px 10px 10px gold;
+
+}
+.carte>h2{
+    display: inline-block;
+    font-family: "Ruthie";
+    font-weight: 400;
+    font-size: 3em;
+    margin-left: 5%;
+    margin-right: auto;
+
+}
+.carte>p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+body{
+    background-color: rgb(245, 245, 194);
+}
+nav .nav-btn{
+    background-color: rgb(220, 231, 196);
+}
+nav .nav-btn:hover{
+    background-color: rgb(183, 219, 105);
+}
